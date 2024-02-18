@@ -1,0 +1,7 @@
+.main .gastos_body form{
+    display: flex;
+    flex-direction: column;
+}
+.gastos_body form > *{
+    margin: .5em 0;
+}

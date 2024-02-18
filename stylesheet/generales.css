@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{ font-size: 62.5%; }
+li{
+    margin: 1em 0;
+    list-style: none;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"]
+{ 
+    padding: .3em .5em;
+    border-radius: .5em;
+}
+button, input[type="submit"]{
+    padding: .6em;
+    margin-left: 0;
+}
+a{
+    font-weight: bold;
+    color: rgb(86, 86, 249);
+    text-decoration: none;
+}
+a:hover{ color: rgb(57, 57, 201);}
+a:active{ color: rgb(183, 183, 255);}
+
+body{
+    min-height: 100vh;
+    font-size: 1.6rem;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body.fondo{
+    background-color: rgb(50, 50, 50);
+}
+
+.main{
+    width: 40%;
+    min-width: 22rem;
+    max-width: 45rem;
+    min-height: 25rem;
+    margin: auto;
+    padding: 2em 1.5em;
+    border-radius: .5em;
+    background-color: rgb(197, 139, 248);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gastos_encontrados{
+    overflow: scroll;
+}
+
+.header{
+    margin-bottom: 2em;
+    color: rgb(217, 237, 255);
+}
+
+.main .gastos_encontrados{
+    background-color: aliceblue;
+    margin: 1em 0;
+    padding: 1.2em .8em;
+    border-radius: .4em;
+}
+
+footer{
+    padding: .5em 0;
+    background-color: rgb(168, 113, 216);
+    display: flex;
+    justify-content: space-around;
+} 
